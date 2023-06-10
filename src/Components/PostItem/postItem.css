@@ -1,0 +1,26 @@
+.post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+}
+.title-data {
+    padding: 5px;
+}
+.item-inner {
+    height: 100%;
+}
+.item-inner button {
+    background-color: rgba(128, 128, 128, 0.578);
+    height: 100%;
+}
+
+.item-inner button:first-child {
+    color: yellow;
+}
+.item-inner button:nth-child(2) {
+    color: rgba(228, 56, 56, 0.758);
+}
+.item-inner button:nth-child(3) {
+    color: red;
+}

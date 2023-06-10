@@ -7,8 +7,12 @@ button {
     background-color: rgba(33, 164, 33, 0.728);
     border: 1px solid lightblue;
     cursor: pointert;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
 }
 
 button:nth-child(2) {
     background-color: rgba(166, 169, 172, 0.733);
+    color: blue;
 }
