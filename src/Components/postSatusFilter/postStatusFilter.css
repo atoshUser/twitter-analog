@@ -1,0 +1,14 @@
+.wrapper-btn {
+    display: flex;
+    height: 100%;
+}
+button {
+    width: 50px;
+    background-color: rgba(33, 164, 33, 0.728);
+    border: 1px solid lightblue;
+    cursor: pointert;
+}
+
+button:nth-child(2) {
+    background-color: rgba(166, 169, 172, 0.733);
+}

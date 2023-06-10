@@ -1,0 +1,7 @@
+.search-input {
+    width: 100%;
+    padding: 10px;
+
+    outline: none;
+    border: 2px solid rgb(89, 86, 87);
+}

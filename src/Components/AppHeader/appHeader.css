@@ -1,0 +1,11 @@
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.total-post {
+    font-size: 24px;
+    color: rgb(63, 63, 64);
+    font-weight: 500;
+}
