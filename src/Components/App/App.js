@@ -6,6 +6,12 @@ import PostAddMsg from "../PostAddMsg";
 /* CSS */
 import "./app.css";
 function App() {
+    const data = [
+        { label: "I am learning React JS", liked: false, id: "qz" },
+        { label: "I want to work in FidoBusiness", liked: true, id: "qq" },
+        { label: "I am going to learn TaiwilendCSS", liked: true, id: "qy" },
+    ];
+
     return (
         <div className="app">
             <AppHeader />
@@ -13,7 +19,7 @@ function App() {
                 <SearchPanel />
                 <PostStatusFilter />
             </div>
-            <PostList />
+            <PostList data={[...data]} />
             <PostAddMsg />
         </div>
     );

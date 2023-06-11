@@ -3,19 +3,23 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid grey;
+    background-color: rgba(128, 128, 128, 0.509);
 }
 .title-data {
     padding: 5px;
+    color: white;
 }
 .item-inner {
     height: 100%;
+    border-left: 2px solid white;
 }
 .item-inner button {
-    background-color: rgba(128, 128, 128, 0.578);
+    background-color: rgba(240, 224, 224, 0.753);
     height: 100%;
+    border: 0;
 }
 
-.item-inner button:first-child {
+.star {
     color: yellow;
 }
 .item-inner button:nth-child(2) {
@@ -23,4 +27,16 @@
 }
 .item-inner button:nth-child(3) {
     color: red;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.liked {
+    color: yellow;
+}
+.removeStar {
+    color: white;
 }
